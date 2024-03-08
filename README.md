@@ -2,16 +2,17 @@ The program exams two folders, one source folder and one target folder, and remo
 
 Following criteria are used to determine whether two files are identical:
 
-- fila names are the same
+- file names are the same
 - file sizes are the same
 - file contents are the same (by comparing SHA256 checksum)
 
 Please note the timestamp is not compared.
 
-The program depends on following packate:
+The program depends on following package:
 - Send2Trash
 
-Example:
-
+Usage:
 - python duplicate_file_remover.py <source_folder> <target_folder>
 
+Example:
+- python duplicate_file_remover.py ~/source ~/target
