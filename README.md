@@ -8,6 +8,9 @@ Following criteria are used to determine whether two files are identical:
 
 Please note the timestamp is not compared.
 
+The program depends on following packate:
+- Send2Trash
+
 Example:
 
 - python duplicate_file_remover.py <source_folder> <target_folder>
