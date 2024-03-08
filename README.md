@@ -1,10 +1,12 @@
-The program exams the source folder and target folder, and removes duplicate files.  If the same file in the target folder is found in the source folder, and all the following conditions are met, the file in target folder will be removed:
+The program exams two folders, one source folder and one target folder, and removes duplicate files from the target folder if the same files are found in the source folder.
+
+Following criteria are used to determine whether two files are identical:
 
 - fila names are the same
 - file sizes are the same
 - file contents are the same (by comparing SHA256 checksum)
 
-The timestamp is not compared.
+Please note the timestamp is not compared.
 
 Example:
 
