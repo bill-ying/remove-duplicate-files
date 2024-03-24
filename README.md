@@ -1,4 +1,4 @@
-The program exams two folders, one source folder and one target folder, and removes duplicate files from the target folder if the same files are found in the source folder.
+The program inspects two folders - source folder and target folder, and removes files from the target folder if the same files are found in the source folder.
 
 Following criteria are used to determine whether two files are identical:
 
